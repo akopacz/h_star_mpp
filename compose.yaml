@@ -1,0 +1,8 @@
+services:
+  main:
+    build:
+      context: .
+      args:
+        - COORDINATES=scenario1/15coordinates.txt
+    volumes:
+      - ./output:/output
