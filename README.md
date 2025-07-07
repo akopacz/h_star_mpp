@@ -55,6 +55,10 @@ input
 ```
 The file containing the scenery should be named `scenery.txt`, the names of the files with the coordinates and the names of the directories are arbitrary.
 
+### Input files
+
+The H* algorithm was evaluated on Scenario 1, Scenario 2 and Scenario 3; the files for the sceneries and the coordinates are available [in this repository (see the scenario1, scenario2 and scenario3 directories)](https://github.com/enolgargon/CoevolutionaryAstar).
+
 ## Files
 
 | Script or module | Description |
