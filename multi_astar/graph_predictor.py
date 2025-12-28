@@ -111,7 +111,6 @@ def get_valid_move_actions_(
                             agent_position: Tuple[int, int],
                             graph: nx.graph, width:int, height:int) -> Set[NextAction]:
     neighbors = set()
-    assert(0 == 1)
     agent_pos = agent_position[0] * width + agent_position[1]
     for new_position in NEIGHBORS: # Adjacent squares
 
